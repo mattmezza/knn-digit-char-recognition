@@ -1,7 +1,7 @@
 Recognition of digits and characters
 =========
 
-```python
+```bash
 python teach.py img/source/folder classifier/onlydigits
 
 python test.py img/test/folder classifier/onlydigits
@@ -9,7 +9,7 @@ python test.py img/test/folder classifier/onlydigits
 
 To teach also letters please run the command with the `--with-letters` parameter
 
-```python
+```bash
 python teach.py img/source/folder classifier/digitsandletters --with-letters
 
 python test.py img/test/folder classifier/digitsandletters
